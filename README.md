@@ -59,7 +59,7 @@ Tento projekt nyní **plně zveřejňuje framework i instrukce**, čímž podpor
 - Optimalizovat personalizaci na základě vzdělávacích strategií
 - Přispívat k rozvoji vzdělávacích materiálů v odpovídajících sekcích
 
-Tento přístup zajišťuje, že projekt **ELEVATE Academic** bude dlouhodobě udržitelný, otevřený a prospěšný všem, kdo se chtějí podílet na zlepšení akademické podpory prostřednictvím AI mentorství. Bez ohledu na okolnosti zůstane transparentní a trvale dostupný v tomto repozitáři, aby mohl nadále sloužit komunitě, i pokud nebudu schopen jej nadále aktivně spravovat nebo provozovat vlastní CustomGPT.
+Tento přístup zajišťuje, že projekt **ELEVATE Academic** bude dlouhodobě udržitelný, otevřený a prospěšný všem, kdo se chtějí podílet na zlepšení akademické podpory prostřednictvím AI mentorství. Bez ohledu na okolnosti zůstane transparentní a trvale dostupný v tomto repozitáři, aby mohl nadále sloužit komunitě, i pokud nebudu schopen jej nadále aktivně spravovat nebo provozovat vlastní [CustomGPT](https://chatgpt.com/g/g-67897b48ea548191849fecba9ac320a2-elevate).
 
 ## 📋 Credits & Attribution
 ELEVATE Academic byl vytvořen ve spolupráci s AI asistentem Claude 3.5 Sonnet a ChatGPT / CustomGPT ELEVATE.
