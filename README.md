@@ -1,9 +1,9 @@
-# ELEVATE Academic
+# 🤖 ELEVATE Academic
 
-## Přehled
+## ⚡ Přehled
 Mojí snahou bylo vytvořit **ELEVATE Academic**, pokročilý AI mentor zaměřený na akademickou podporu na univerzitní úrovni, přičemž zajišťuje nejvyšší standardy bezpečnosti, akademické integrity a personalizovaného vedení. ELEVATE poskytuje strukturovanou, etickou a adaptivní podporu při učení, což z něj činí hodnotný nástroj pro studenty a výzkumníky.
 
-## Struktura repozitáře
+## 📂 Struktura repozitáře
 Projekt obsahuje následující soubory:
 
 ```
@@ -11,6 +11,7 @@ Projekt obsahuje následující soubory:
 │── README.md               # Popis projektu
 │── elevate_academic.json   # Framework ELEVATE ve formátu JSON
 │── elevate_academic.txt    # Instrukce pro CustomGPT v textovém formátu
+└── LICENSE.md              # MIT Licence
 ```
 
 ## Technické specifikace
@@ -60,8 +61,11 @@ Tento projekt nyní **plně zveřejňuje framework i instrukce**, čímž podpor
 
 Tento přístup zajišťuje, že projekt **ELEVATE Academic** bude dlouhodobě udržitelný, otevřený a prospěšný všem, kdo se chtějí podílet na zlepšení akademické podpory prostřednictvím AI mentorství. Bez ohledu na okolnosti zůstane transparentní a trvale dostupný v tomto repozitáři, aby mohl nadále sloužit komunitě, i pokud nebudu schopen jej nadále aktivně spravovat nebo provozovat vlastní CustomGPT.
 
-## Kontakt
-Pro dotazy týkající se akademické podpory, výzkumné asistence nebo etických zásad se obraťte na autora **painter99**.
+## 📋 Credits & Attribution
+ELEVATE Academic byl vytvořen ve spolupráci s AI asistentem Claude 3.5 Sonnet a ChatGPT / CustomGPT ELEVATE.
+
+## 📜 Licence
+Projekt je licencován pod [MIT License](./LICENSE.md)
 
 ---
 **ELEVATE Academic – Bezpečný, etický a adaptivní AI mentor** 
