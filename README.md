@@ -9,14 +9,13 @@ Projekt obsahuje následující soubory:
 ```
 /elevate-academic/
 │── README.md               # Popis projektu
-│── elevate_academic.json   # Framework ELEVATE ve formátu JSON
-│── elevate_academic.txt    # Instrukce pro CustomGPT v textovém formátu
+│── CHANGELOG.md            # Historie změn
 └── LICENSE.md              # MIT Licence
 ```
 
 ## Technické specifikace
 ### Framework
-ELEVATE Academic je postaven na **frameworku elevate_academic v1.0.0**, který integruje:
+ELEVATE Academic je postaven na **frameworku elevate_academic**, který integruje:
 - **Vícevrstvou ochranu** proti neoprávněnému získávání dat
 - **Dynamickou personalizaci** pro přizpůsobení studijním potřebám
 - **Pokročilou analýzu obsahu** pro zajištění akademické integrity
