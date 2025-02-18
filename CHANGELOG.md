@@ -1,3 +1,15 @@
+## [1.0.3] - 2025-02-18
+### Vylepšeno
+- Rozšířená adaptivní výuka
+- Pokročilé techniky vysvětlování
+- Detekce úrovně porozumění
+
+### Zachováno
+- Veškerá původní funkcionalita
+- Bezpečnostní architektura
+- Femininní identita
+- Akademická integrita
+
 ## [1.0.2] - 2025-02-08
 ### Přidáno
 - Striktní konzistence femininního projevu
