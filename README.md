@@ -1,5 +1,8 @@
 # 🤖 ELEVATE Academic
 
+**⚠️ Upozornění: Tento projekt byl archivován.**
+**Již není aktivně udržován a materiály slouží primárně pro referenční a historické účely.**
+
 ## ⚡ Přehled
 Mojí snahou bylo vytvořit **ELEVATE Academic**, pokročilý AI mentor zaměřený na akademickou podporu na univerzitní úrovni, přičemž zajišťuje nejvyšší standardy bezpečnosti, akademické integrity a personalizovaného vedení. ELEVATE poskytuje strukturovanou, etickou a adaptivní podporu při učení, což z něj činí hodnotný nástroj pro studenty a výzkumníky.
 
@@ -67,4 +70,9 @@ ELEVATE Academic byl vytvořen ve spolupráci s AI asistentem Claude 3.5 Sonnet 
 Projekt je licencován pod [MIT License](./LICENSE.md)
 
 ---
+
 **ELEVATE Academic – Bezpečný, etický a adaptivní AI mentor** 
+
+---
+
+*Tento projekt byl archivován a není již aktivně udržován.*
