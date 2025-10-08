@@ -1,42 +1,60 @@
-# 🤖 ELEVATE Academic — Cognitive Synthesis Engine
-**Motto:** Od Empatie k Exekuci
+# 🌿 ELEVATE Academic
+**Multi-agentní AI mentorský ekosystém pro vzdělávání, výzkum a profesní rozvoj**
 
-**ELEVATE Academic** je otevřený kognitivně-didaktický framework, který proměňuje AI v **empatickou mentorku a strategickou partnerku**.  
-Vede uživatele celým cyklem: od zmatku → přes porozumění a brainstorming → ke kritické oponentuře → až k exekuci a odevzdání.
-
----
-
-## 🔗 Rychlé odkazy (Wiki)
-- [**Home**](https://github.com/painter99/ELEVATE-Academic/wiki)
-- [**Architecture**](https://github.com/painter99/ELEVATE-Academic/wiki/Architecture)
-- [**Cognitive White-Paper**](https://github.com/painter99/ELEVATE-Academic/wiki/Cognitive-Whitepaper)  
-- [**Mental Toolbox**](https://github.com/painter99/ELEVATE-Academic/wiki/Mental-Toolbox)
-- [**Poslední verze ke stažení nebo jako CustomGPT**](https://github.com/painter99/ELEVATE-Academic/releases)
-
-> Kompletní dokumentace, diagramy a metodika jsou v **GitHub Wiki**.
+> 🚀 **Nová hlavní verze (v2.0)** přináší modulární architekturu založenou na workflows a specializovaných agentech – ELEVATE, STEP, ARIS a DIANA.
 
 ---
 
-## 🧠 Co to je (ve zkratce)
-Framework založený na **PTCF** (Persona, Task, Context, Format) a 6 vrstvách (Persona, Task Engine, Context Engine, Protocol Core, Memory System, Mental Toolbox).  
-Design kombinuje **neurodidaktiku** (retrieval practice, cognitive load, metakognici) s **agentní logikou** (módy, rituály, ochrana fokusu).
+## ✨ Novinky oproti v1.1.1
+- 🟩 **Multi-agentní architektura:** samostatné role s jasnými schopnostmi a workflow.
+- 📚 **Znalostní báze + knihovna snippetů:** snadnější údržba.
+- 📝 **Session Journal Template:** sjednocený formát zápisů a exportů.
+- 🔐 **Vylepšená bezpečnost & governance:** hierarchie autority, ochrana identity, meta-awareness.
+- 🤝 **Integrace s CustomGPT / Dify.ai:** čistší onboarding, možnost orchestrací.
+- 🧩 **Rozšiřitelnost:** jednodušší přidávání dalších služeb a rituálů.
+- 🆙 Kompletně revidovaná dokumentace a Wiki.
 
 ---
 
-## ✨ Klíčové funkce (stručně)
-- **4 operační módy:** Učení · Brainstorming · Kritická oponentura · Exekuce  
-- **Protokol Ochrany Fokusu:** jemná, ale pevná pomoc proti přepínání pozornosti  
-- **Dynamický Studijní Deník:** konzistentní paměť a návaznost mezi sezeními  
-- **Cognitive Toolbox:** praktické principy (např. „Minimální výstup“, „Proč před Jak“, UDL varianty)
+## 🧠 Architektura a Hlavní Agenti
+| Agent | Účel |
+|-------|------|
+| **ELEVATE** | Hlavní akademická mentorka pro studenty – učení, brainstorming, kritická oponentura, exekuce. |
+| **STEP** | AI partnerka pro pedagogy a rodiče – praktická podpora, reflexe a tipy pro praxi. |
+| **ARIS** | Výzkumná a rešeršní agentka – hloubková rešerše s citacemi a vícefázovým procesem. |
+| **DIANA** | Diagnostická a empatie-mentorship agentka – bezpečný prostor pro sebereflexi či porozumění dítěti. |
 
-> Detailní popisy najdeš ve Wiki → **Architecture** a **Mental-Toolbox**.
+> ⚙️ **Poznámka k architektuře:**  
+> - ELEVATE 2.0 využívá *workflow-driven multi-persona* přístup.  
+> - V prostředí **CustomGPT** běží všechny role nad jedním LLM a agentní chování je dosaženo pomocí striktně oddělených workflow a snippetů – tedy jde o **simulovaný agentní systém**, nikoli o samostatné kontejnery nebo více modelů.  
+> - Díky tomu je možné jej nasadit i v hostingu, který nepodporuje nativní orchestraci agentů (CustomGPT, běžné chat-LLM).
+> - 🗂 Každý agent má vlastní **workflow manual** a sdílí společnou **knowledge-base** a **snippet knihovnu**.
 
 ---
 
-## 📜 Licence
-Publikováno pod **MIT License**. Viz soubor [`LICENSE`](./LICENSE.md).
+## ⚡ Rychlý Start (Quick Start)
+1. Naklonuj repozitář nebo stáhni ZIP.  
+2. Pro nasazení do **CustomGPT / jiného LLM-hostingu** použij jako hlavní **system prompt** soubor `elevate.txt`.  
+3. Ostatní soubory (`ELEVATE_KB.md`, workflows, snippety) slouží k dokumentaci a údržbě.  
+4. Chceš-li plně využít **Session Journal**, nahraj při startu chat-sezení šablonu `SESSION_JOURNAL_TEMPLATE.md`.  
+5. Více detailů → [📖 Wiki / Getting Started](https://github.com/painter99/ELEVATE-Academic/wiki).
 
 ---
 
-**Autor:** [painter99](https://github.com/painter99) ·  
-Dokumentace a white-paper: viz **GitHub Wiki**.
+## 📘 Dokumentace & Wiki
+- **Overview:** koncepce ekosystému a principy.  
+- **Agents & Workflows:** detailní manuály ELEVATE / STEP / ARIS / DIANA.  
+- **Session Journal:** struktura a práce s deníkem.  
+- **Governance & Safety:** hierarchie autority, meta-awareness, ochrana identity.  
+- **Upgrade Guide v1.1.1 → v2.0:** migrační poznámky.  
+
+👉 Vše najdeš ve [📖 Wiki](https://github.com/painter99/ELEVATE-Academic/wiki).
+
+---
+
+## 🔐 Licence
+Zůstává kompletně pod [`MIT LICENSE`](./LICENSE.md).  
+
+---
+
+> © 2025 Pavel Mareš (alias painter99) – ELEVATE Academic Framework
